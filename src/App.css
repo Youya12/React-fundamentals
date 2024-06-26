@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+h2{
+  color: rgb(226, 123, 140);
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.myCalling{
+  display: flex;
+  margin: 20px;
+  background-color: rgb(240, 191, 199);
+  font-weight: bold;
+  padding: 1%;
+  border-radius: 10%;
+  color: white;
+  
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+p{
+  font-weight: bold;
+}
+
+.custom-card {
+  width: 22rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.custom-card .btn-primary {
+  background-color: pink;
+  border-color: rgb(217, 133, 147);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.custom-card .btn-primary:hover {
+  background-color: rgb(236, 138, 154);
+  border-color: rgb(216, 109, 127);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
